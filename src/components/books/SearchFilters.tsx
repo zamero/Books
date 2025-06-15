@@ -41,7 +41,7 @@ export function SearchFilters({ filters, onFiltersChange, availableGenres, avail
           <h1 className="text-lg font-bold">Filters</h1>
         </AccordionTrigger>
         <AccordionContent>
-          <div className="flex flex-col sm:flex-row sm:flex-wrap items-center gap-4 py-4">
+          <div className="flex flex-col sm:flex-row sm:flex-wrap items-center gap-4 py-4 px-2">
             <Select
               value={filters.genre || 'all'}
               onValueChange={(value) => onFiltersChange({ ...filters, genre: value === 'all' ? undefined : value })}
