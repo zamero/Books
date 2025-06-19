@@ -22,25 +22,15 @@ A comprehensive full-stack library management application built with React, Type
 - **Data Validation**: Comprehensive input validation and error handling
 - **API Documentation**: Interactive Swagger documentation
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack Overview
+
+This project leverages a modern full-stack architecture:
 
 ### Frontend
-- **React 18** with TypeScript
-- **Vite** for fast development and building
-- **ShadCN/UI** for modern, accessible components
-- **Tailwind CSS** for styling
-- **Lucide React** for icons
-- **Date-fns** for date manipulation
+Built with **React 18** and **TypeScript** for a dynamic and type-safe user interface. **Vite** ensures a fast development experience, while **ShadCN/UI** and **Tailwind CSS** provide a responsive and visually appealing design. **Lucide React** is used for icons and **Date-fns** for date manipulation.
 
 ### Backend
-- **Node.js** with Express.js
-- **TypeScript** for type safety
-- **JWT** for authentication
-- **bcryptjs** for password hashing
-- **Express Validator** for input validation
-- **Swagger** for API documentation
-- **Helmet** for security headers
-- **CORS** for cross-origin requests
+Powered by **Node.js** with **Express.js** for a robust and scalable RESTful API, also written in **TypeScript** for type safety. Key technologies include **JWT** for secure authentication, **bcryptjs** for password hashing, and **Express Validator** for input validation. **Swagger** provides interactive API documentation, and **Helmet** and **CORS** enhance security.
 
 ## 🚀 Quick Start
 
@@ -53,7 +43,7 @@ A comprehensive full-stack library management application built with React, Type
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd library-management-system
+   cd Books
    ```
 
 2. **Install dependencies**
